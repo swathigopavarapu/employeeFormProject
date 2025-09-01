@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  width: 100%;
+}
+h1, h2 {
+  text-align: center;
+}
+.form-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+input, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+button {
+  background: #444;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background: #666;
+}
+#message {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.success {
+  color: green;
+}
+.error {
+  color: red;
+}
+.employee-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+.employee-card button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
